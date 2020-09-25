@@ -1,1 +1,2 @@
 Hello class
+This is a change in the hotfix branch that will help us to resolve critical production isssue
