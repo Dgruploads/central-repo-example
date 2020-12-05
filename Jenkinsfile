@@ -7,7 +7,7 @@ node
   sh "sudo service docker start"
 
   stage "3. Build the docker image"
-  sh "sudo docker build -t docker-image ."
+  sh "sudo docker build -t docker-image /home/ec2-user/"
 
   stage "4. Run the container"
   sh "sudo docker run -dit -p 80:80 --name docker-container docker-image"
